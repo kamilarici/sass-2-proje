@@ -14,7 +14,11 @@
     // background-size: contain;
     // background-repeat: no-repeat;
     // background-image: url(../assets/image1.png);
-    @include bgImage(500px, 45%, "../assets/image1.png");
+    @include bgImage(
+      500px,
+      45%,
+      "https://cdn.pixabay.com/photo/2017/07/07/14/43/mountaineer-2481635_640.jpg"
+    );
   }
   &__form {
     width: 45%;

@@ -20,38 +20,39 @@
   transition: color 1s;
 }
 .footer__icons .social1:hover {
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
 }
 .footer__icons .social2 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social2:hover {
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
 }
 .footer__icons .social3 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social3:hover {
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
 }
 .footer__icons .social4 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social4:hover {
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
 }
 .footer__icons .social5 {
   padding: 0.4rem;
   transition: color 1s;
 }
 .footer__icons .social5:hover {
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
 }
 
 .header {
+  border-bottom: 2px solid rgb(189, 95, 14);
   /* bu yorum satırı css dosyasına gelir*/
   display: flex;
   justify-content: space-between;
@@ -96,12 +97,12 @@
   font-weight: 500;
   font-size: 1rem;
   line-height: 30px;
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
   width: 90px;
 }
 .header__links--register {
   border: none;
-  background-color: #fb8f1d;
+  background-color: rgb(185, 144, 21);
   color: #ffffff;
 }
 
@@ -312,7 +313,7 @@
 .about__text--button {
   margin: 1rem 0px;
   border: none;
-  background: #fb8f1d;
+  background: rgb(185, 144, 21);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -359,7 +360,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #fb8f1d;
+  color: rgb(185, 144, 21);
 }
 .destination__group {
   width: 100%;
@@ -459,7 +460,7 @@
 .guide__text--button {
   margin: 1rem 0px;
   border: none;
-  background: #fb8f1d;
+  background: rgb(185, 144, 21);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;
@@ -536,7 +537,7 @@
 .home__form--button {
   margin: 1rem 0px;
   border: none;
-  background: #fb8f1d;
+  background: rgb(185, 144, 21);
   border-radius: 8px;
   font-family: "Inter";
   font-style: normal;

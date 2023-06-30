@@ -5,7 +5,11 @@
   width: 90%;
   gap: 2rem;
   &__image {
-    @include bgImage(500px, 45%, "../assets/image3.png");
+    @include bgImage(
+      500px,
+      45%,
+      "https://cdn.pixabay.com/photo/2017/02/26/11/57/mountaineer-2100050_1280.jpg"
+    );
   }
   &__text {
     width: 45%;

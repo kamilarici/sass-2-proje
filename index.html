@@ -4,23 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Travel Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MOUNTAİN</title>
   </head>
   <body>
     <nav class="header">
-      <img src="./assets/Clarusway_Logo.png" alt="" class="header__logo" />
+      <img src="./assets/logodag.png" alt="" class="header__logo" />
+      <!-- <h1 class="header__font">
+        DAGCILIK KLUBU <i class="fa-solid fa-mountain-sun"></i>
+      </h1> -->
+
       <i class="fa-solid fa-bars fa-2x"></i>
       <ul class="header__links">
-        <li><button class="header__links--home">Home</button></li>
+        <li><button class="header__links--home">Ana Sayfa</button></li>
         <li>
-          <button disabled class="header__links--disabled">Destination</button>
+          <button disabled class="header__links--disabled">Son Nokta</button>
         </li>
-        <li><button disabled class="header__links--disabled">About</button></li>
         <li>
-          <button disabled class="header__links--disabled">Partner</button>
+          <button disabled class="header__links--disabled">Hakkımızda</button>
         </li>
-        <li><button class="header__links--login">Login</button></li>
-        <li><button class="header__links--register">Register</button></li>
+        <li>
+          <button disabled class="header__links--disabled">Body</button>
+        </li>
+        <li><button class="header__links--login">Giriş</button></li>
+        <li><button class="header__links--register">Kayıt</button></li>
       </ul>
     </nav>
     <main>
@@ -28,21 +41,21 @@
 
       <section class="home">
         <div class="home__form">
-          <h2>Explore Travel</h2>
-          <h3>Holiday Finder</h3>
+          <h2>Aktivite Planı</h2>
+          <h3>Yer Seçimi</h3>
           <hr />
           <form action="">
             <select name="" id="">
-              <option value="">Location</option></select
+              <option value="">Yer</option></select
             ><select name="" id="">
-              <option value="">Activity</option></select
+              <option value="">Activite</option></select
             ><select name="" id="">
-              <option value="">Grade</option></select
+              <option value="">Rakım</option></select
             ><select name="" id="">
-              <option value="">Date</option>
+              <option value="">Zaman</option>
             </select>
           </form>
-          <button class="home__form--button">Explore</button>
+          <button class="home__form--button">Keşfet</button>
         </div>
         <div class="home__image"></div>
       </section>
@@ -52,13 +65,17 @@
       <section class="about">
         <div class="about__image"></div>
         <div class="about__text">
-          <h2 class="about__text--header">A new way to explore the world</h2>
+          <h2 class="about__text--header">
+            Yeni Keşifler İçin Daha Fazla Bilgi Edin
+            <i class="fa-solid fa-mountain-sun"></i>
+          </h2>
           <p class="about__text--paragraph">
-            For decades travellers have reached for Lonely Planet books when
-            looking to plan and execute their perfect trip, but now, they can
-            also let Lonely Planet Experiences lead the way.
+            Doğanın bize sunduğu güzelliklerin daha fazlasını görmek istemez
+            misin.? Güneşin doğuşunu sen de bulutlar üzerinden 4000 rakımdan
+            görmek istemez misin? Hatta enerjinin son noktasını zirvede
+            hissetmek istemez misin ? O zaman doğru yerdesin...
           </p>
-          <button class="about__text--button">Learn More</button>
+          <button class="about__text--button">Bilgi Al</button>
         </div>
       </section>
 
@@ -66,7 +83,7 @@
 
       <section class="destination">
         <div class="destination__header">
-          <h3>Featured destinations</h3>
+          <h3>Öne Çıkan Geziler</h3>
           <button>
             <span>View all</span>
             <svg
@@ -88,31 +105,35 @@
         </div>
         <div class="destination__group">
           <div class="destination__card">
-            <img src="./assets/raja.jpg" loading="lazy" alt="" />
+            <img
+              src="https://cdn.pixabay.com/photo/2018/02/12/20/57/sky-3149114_640.jpg"
+              loading="lazy"
+              alt=""
+            />
             <p>
-              <span>Raja Ampat</span>
-              <span>Indenosia</span>
+              <span>Everest</span>
+              <span>Çin</span>
             </p>
           </div>
           <div class="destination__card">
             <img src="./assets/Fanjingshan.jpg" loading="lazy" alt="" />
             <p>
-              <span>Fanjingshan</span>
-              <span>China</span>
+              <span>Pasu Sar</span>
+              <span>Moğolistan</span>
             </p>
           </div>
           <div class="destination__card">
             <img src="./assets/Vevey.jpg" loading="lazy" alt="" />
             <p>
-              <span>Vevey</span>
-              <span>Switzerland</span>
+              <span>Saraghrar</span>
+              <span>Afganistan</span>
             </p>
           </div>
           <div class="destination__card">
             <img src="./assets/Skadar.jpg" loading="lazy" alt="" />
             <p>
-              <span>Skadar</span>
-              <span>Montenegro</span>
+              <span>Annapurna</span>
+              <span>Nepal</span>
             </p>
           </div>
         </div>
